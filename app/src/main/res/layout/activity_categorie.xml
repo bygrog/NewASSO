@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Grid">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearCat"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cat"
+        android:text="NOS CATEGORIES"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/alimen"
+        android:layout_height="120dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:text="Alimentation"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:background="@drawable/img11"
+        android:textAlignment="center"
+        android:textColor="#aaa"
+        android:onClick="alimenD"/>
+    <TextView
+        android:layout_height="120dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:text="Art et Culture"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:background="@drawable/img22"
+        android:textAlignment="center"
+        android:textColor="#f39c12" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_height="120dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:text="Hi-Tech"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:background="@drawable/img33"
+        android:textAlignment="center"
+        android:textColor="#aaa"/>
+
+    <TextView
+        android:layout_height="120dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:text="Cave"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:background="@drawable/img44"
+        android:textAlignment="center"
+        android:textColor="#fde3a7" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_height="120dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:text="Shopping"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:background="@drawable/img55"
+        android:textAlignment="center"
+        android:textColor="#f96906"/>
+    <TextView
+        android:layout_height="120dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:text="Loisirs et animations"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:background="@drawable/img66"
+        android:textAlignment="center"
+        android:textColor="#fde3a7" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_height="120dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:text="Quincaillerie'"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:background="@drawable/img77"
+        android:textAlignment="center"
+        android:textColor="#fde3a7"/>
+    <TextView
+        android:layout_height="120dp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:text="Service"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:background="@drawable/img88"
+        android:textAlignment="center"
+        android:textColor="#fde3a7" />
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
